@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_marginBottom="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#01579b"
+            android:paddingBottom="20dp" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/resultName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/text_cursor_cyan"
+            app:met_primaryColor="?colorAccent"
+            android:hint="로스팅 제목"
+            app:met_floatingLabel="normal"
+            android:gravity="center"
+            android:text="" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_marginLeft="20dp"
+            android:id="@+id/resultWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/text_cursor_cyan"
+            app:met_primaryColor="?colorAccent"
+            android:hint="원두 무게"
+            app:met_floatingLabel="normal"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/resultPretemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/text_cursor_cyan"
+            app:met_primaryColor="?colorAccent"
+            android:hint="예열 온도"
+            app:met_floatingLabel="normal"
+            android:gravity="center"
+            android:text="" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/resultFirstCrack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/text_cursor_cyan"
+            app:met_primaryColor="?colorAccent"
+            android:hint="1차크랙 시간"
+            app:met_floatingLabel="normal"
+            android:gravity="center"
+            android:text="" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_marginLeft="20dp"
+            android:id="@+id/resultFirstTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/text_cursor_cyan"
+            app:met_primaryColor="?colorAccent"
+            android:hint="1차크랙 온도"
+            app:met_floatingLabel="normal"
+            android:gravity="center"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/resultSecondCrack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/text_cursor_cyan"
+            app:met_primaryColor="?colorAccent"
+            android:hint="1차크랙 시간"
+            app:met_floatingLabel="normal"
+            android:gravity="center"
+            android:text="" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_marginLeft="20dp"
+            android:id="@+id/resultSecondTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/text_cursor_cyan"
+            app:met_primaryColor="?colorAccent"
+            android:hint="1차크랙 온도"
+            app:met_floatingLabel="normal"
+            android:gravity="center"
+            android:text="" />
+    </LinearLayout>
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/resultSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1E88E5"
+        android:text="등록" />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/resultCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DB0F10"
+        android:text="취소" />
+
+</LinearLayout>

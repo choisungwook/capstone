@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <Chronometer
+        android:textSize="70sp"
+        android:gravity="center_horizontal"
+        android:id="@+id/chron"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layerType="hardware"
+        android:background="#55008800"
+        />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:background="#01579b"
+            android:paddingBottom="20dp" >
+
+            <TextView
+                android:id="@+id/tempText"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="Tempature"
+                android:textColor="#FFF"
+                android:textSize="35dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.gc.materialdesign.views.LayoutRipple
+            android:id="@+id/preTempButtons"
+            android:layout_width="fill_parent"
+            android:layout_height="64dp"
+            android:background="#FFF"
+            android:clickable="true">
+
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/text_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="예열종료" />
+
+        </com.gc.materialdesign.views.LayoutRipple>
+
+        <TextView
+            android:id="@+id/text_new_pre"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.gc.materialdesign.views.LayoutRipple
+            android:id="@+id/firstCrack"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:background="#FFF"
+            android:clickable="true">
+
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/text_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="1차크랙" />
+
+        </com.gc.materialdesign.views.LayoutRipple>
+
+        <TextView
+            android:id="@+id/text_new_firstcrack"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp" />
+        
+        <TextView
+            android:id="@+id/text_new_firstcracktemp"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.gc.materialdesign.views.LayoutRipple
+            android:id="@+id/secondCrack"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:background="#FFF"
+            android:clickable="true">
+
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/text_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2차크랙" />
+
+        </com.gc.materialdesign.views.LayoutRipple>
+
+        <TextView
+            android:id="@+id/text_new_secondcrack"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:id="@+id/text_new_secondcracktemp"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:textIsSelectable="false"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/roastingSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#1E88E5"
+        android:text="다음단계" />
+
+    <com.gc.materialdesign.views.Slider
+        android:id="@+id/tempslider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#1E88E5"
+        materialdesign:max="300"
+        materialdesign:min="0"
+        materialdesign:showNumberIndicator="true"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

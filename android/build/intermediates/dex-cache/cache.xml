@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\pre-dexed\debug\classes-ad3b9d7f25a543c2632e40474a83775e4949aeff.jar" />
+    </item>
+    <item
+        jar="C:\Users\choisunguk\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v2.1.6\b036abbb61656165da99cf44898e4b9123687e65\MPAndroidChart-v2.1.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b036abbb61656165da99cf44898e4b9123687e65">
+        <dex dex="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\pre-dexed\debug\MPAndroidChart-v2.1.6-cd71b794cb88295ed3f0b94c9a7053c4639726c1.jar" />
+    </item>
+    <item
+        jar="C:\Users\choisunguk\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-44c8e58bdedc1a25a2acf334e00ac5b7e8ca4edd.jar" />
+    </item>
+    <item
+        jar="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\pre-dexed\debug\classes-ee13cd7da1e5bd0794602f193264f48be02cf33f.jar" />
+    </item>
+    <item
+        jar="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\pre-dexed\debug\classes-732e71a233ccab96572171b879983acbf74fc4a4.jar" />
+    </item>
+    <item
+        jar="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\exploded-aar\com.wdullaer\materialdatetimepicker\2.0.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="02329eff16d85c04492c7a5dab456f0993d16349">
+        <dex dex="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\pre-dexed\debug\classes-16d6db398cc05ed0efccae46a534390a32d43e83.jar" />
+    </item>
+    <item
+        jar="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\exploded-aar\com.github.navasmdc\MaterialDesign\1.5\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="12b228574de7977e56e41cbfb385b1463bbdb41a">
+        <dex dex="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\pre-dexed\debug\classes-0a8ecfee8bb9508650a73974fc8663787ab3d70e.jar" />
+    </item>
+    <item
+        jar="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\exploded-aar\com.github.rey5137\material\1.2.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0040be6592cbfbb19a2c1e90a759278795ed2280">
+        <dex dex="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\pre-dexed\debug\classes-ac03c6b3fac8584d33cdc32a74fc5b9a1bdb38a3.jar" />
+    </item>
+    <item
+        jar="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\exploded-aar\com.yalantis\lib\1.0.4\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="aeeb2a3afa27fe429ff9f9b7560fd3acda1b9011">
+        <dex dex="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\pre-dexed\debug\classes-e879cd64b5e9c450895698b61fee8ef3a9a18f8d.jar" />
+    </item>
+    <item
+        jar="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\exploded-aar\com.weiwangcn.betterspinner\library-material\1.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d8c5463a1a50691e2cf66cd7ce4751c8545b584">
+        <dex dex="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\pre-dexed\debug\classes-5adf2baff6d72a3115da765ed66ac555f229c713.jar" />
+    </item>
+    <item
+        jar="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\2.1.4\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="288913b440a3c61c30aa171095453a605432277a">
+        <dex dex="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\pre-dexed\debug\classes-eb75ec91f8a14c0817f6e4b31b957e9c34da10da.jar" />
+    </item>
+    <item
+        jar="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\pre-dexed\debug\classes-2c876b04a43fdd366eab137a995134fa6023a8bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\choisunguk\Documents\androidstudio\블루투스연결\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-9f692f143ac757d520f7dcb6eb494408d1b1b735.jar" />
+    </item>
+
+</items>

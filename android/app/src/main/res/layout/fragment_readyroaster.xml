@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/roastingScreen">
+
+        <RelativeLayout
+            android:layout_marginBottom="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#01579b"
+                android:paddingBottom="20dp" >
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/roastername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/text_cursor_cyan"
+            app:met_primaryColor="?colorAccent"
+            android:hint="로스팅 제목"
+            app:met_floatingLabel="normal"
+            android:gravity="center"
+            android:text="" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/weight"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/text_cursor_cyan"
+            app:met_primaryColor="?colorAccent"
+            android:hint="원두 무게"
+            app:met_floatingLabel="normal"
+            android:gravity="center" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/TDate"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/text_cursor_cyan"
+            android:enabled="false"
+            app:met_primaryColor="?colorAccent"
+            android:hint="로스팅 날짜"
+            app:met_floatingLabel="normal"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/button_calendar"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:text="날짜선택"
+            android:textSize="8sp" />
+
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/spinner2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="회전모드"
+            app:met_floatingLabel="normal"
+            app:met_primaryColor="?colorAccent"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/button_bluetooth"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="블루투스연결"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/button_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1E88E5"
+        android:text="다음단계" />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/mode_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DB0F10"
+        android:text="취소" />
+
+</LinearLayout>

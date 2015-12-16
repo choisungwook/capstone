@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#ffffff">
+
+<android.support.v7.widget.CardView
+android:id="@+id/cardview"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+card_view:cardCornerRadius="4dp"
+android:layout_margin="5dp">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/cardname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardTitle"
+        android:text="contact det"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/carddatename"
+        android:text="로스터 날짜"
+        android:textColor="@color/cardcontentText"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardname"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:textColor="@color/cardcontentText"
+        android:id="@+id/carddate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center_vertical"
+        android:textSize="15dp"
+        android:layout_marginLeft="100dp"
+        android:layout_alignTop="@id/carddatename"
+        android:layout_below="@+id/cardname" />
+
+    <TextView
+        android:id="@+id/cardweightname"
+        android:text="원두 무게"
+        android:textColor="@color/cardcontentText"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/carddate"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:textColor="@color/cardcontentText"
+        android:id="@+id/cardweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textSize="15dp"
+        android:layout_marginLeft="40dp"
+        android:layout_alignTop="@id/cardweightname"
+        android:layout_toRightOf="@id/cardweightname"/>
+
+
+    <TextView
+        android:id="@+id/cardpretempname"
+        android:text="예열 온도"
+        android:textColor="@color/cardcontentText"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardweightname"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:textColor="@color/cardcontentText"
+        android:id="@+id/cardpretemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textSize="15dp"
+        android:layout_marginLeft="40dp"
+        android:layout_alignTop="@id/cardpretempname"
+        android:layout_toRightOf="@id/cardpretempname"/>
+
+    <TextView
+        android:id="@+id/cardfirstcracktimename"
+        android:text="1차크랙 시간"
+        android:textColor="@color/cardcontentText"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardpretempname"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:textColor="@color/cardcontentText"
+        android:id="@+id/cardfirstcracktime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textSize="15dp"
+        android:layout_marginLeft="@dimen/cardlayouttoright"
+        android:layout_alignTop="@id/cardfirstcracktimename"
+        android:layout_toRightOf="@id/cardfirstcracktimename"/>
+
+
+    <TextView
+        android:id="@+id/cardfirstcracktempname"
+        android:text="1차크랙 온도"
+        android:textColor="@color/cardcontentText"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardfirstcracktimename"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:textColor="@color/cardcontentText"
+        android:id="@+id/cardfirstcracktemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textSize="15dp"
+        android:layout_marginLeft="@dimen/cardlayouttoright"
+        android:layout_alignTop="@id/cardfirstcracktempname"
+        android:layout_toRightOf="@id/cardfirstcracktempname"/>
+
+    <TextView
+        android:id="@+id/cardsecondcracktimename"
+        android:text="2차크랙 시간"
+        android:textColor="@color/cardcontentText"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardfirstcracktempname"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:textColor="@color/cardcontentText"
+        android:id="@+id/cardsecondcracktime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textSize="15dp"
+        android:layout_marginLeft="@dimen/cardlayouttoright"
+        android:layout_alignTop="@id/cardsecondcracktimename"
+        android:layout_toRightOf="@id/cardsecondcracktimename"/>
+
+    <TextView
+        android:id="@+id/cardsecondcracktempname"
+        android:text="2차크랙 온도"
+        android:textColor="@color/cardcontentText"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardsecondcracktimename"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:textColor="@color/cardcontentText"
+        android:id="@+id/cardsecondcracktemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textSize="15dp"
+        android:layout_marginLeft="@dimen/cardlayouttoright"
+        android:layout_alignTop="@id/cardsecondcracktempname"
+        android:layout_toRightOf="@id/cardsecondcracktempname"/>
+
+</RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

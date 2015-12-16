@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="spinner">
+        <item>@style/LightSpinner</item>
+        <item>@style/DarkSpinner</item>
+    </array>
+
+    <array name="spinner_no_arrow">
+        <item>@style/LightSpinnerNoArrow</item>
+        <item>@style/DarkSpinnerNoArrow</item>
+    </array>
+
+</resources>
