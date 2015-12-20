@@ -1,6 +1,6 @@
 # subject
-this project is conducted in the capstone class in 2015
-our goal is that we make roaster(frame) and android application 
+- this project is conducted in the capstone class in 2015
+- our goal is that we make roaster(frame) and android application 
 
 #completed
 - assemble roatser frame
