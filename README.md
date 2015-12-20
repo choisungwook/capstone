@@ -10,5 +10,11 @@
 - controll temperature
 - measure temperature
 
+#develop environment and equipment
+- arduino pro nano(prototype uno)
+- android studio
+- arduino sketch
+- sqlite db
+
 #Document
 https://drive.google.com/folderview?id=0B7OD99PRE8qrMTBkUWVEQ00tS1k&usp=sharing
